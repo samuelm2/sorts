@@ -27,15 +27,7 @@ public class MergeSort {
 		right = mergeSort(right);
 		return merge(left, right);
 	}
-	public static String toStringy(double[] a) {
-		String result = "";
-		if(a.length == 0) return null;
-		for(int i = 0; i < 5; i++) {
-			result +=a[i] + ", ";
-		}
-		result += a[5] + "...";
-		return result;
-	}
+	
 	public static double[] genRandomArray(int length) {
 		double[] result = new double[length];
 		for(int i = 0; i<length; i++) result[i] = (int)(Math.random() * length) * 1.;
