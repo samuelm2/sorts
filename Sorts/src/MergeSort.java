@@ -28,10 +28,6 @@ public class MergeSort {
 		return merge(left, right);
 	}
 	
-	public static double[] genRandomArray(int length) {
-		double[] result = new double[length];
-		for(int i = 0; i<length; i++) result[i] = (int)(Math.random() * length) * 1.;
-		return result;
-	}
+
 	
 }
